@@ -1,7 +1,7 @@
 """
 distribution.py
 Author: <your name here>
-Credit: <list sources used, if any>
+Credit:David
 
 Assignment:
 
@@ -36,3 +36,13 @@ Notice about this example:
   in the text and they are listed in the output in alphabetical order.
 * Letters that do not occur in the text are not listed in the output at all.
 """
+x = 0
+
+words = str(input("Please enter a string of text (the bigger the better): "))
+words = words.lower()
+
+print(words)
+words.count({x}).alphabet
+
+alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z"]
+
