@@ -41,6 +41,7 @@ alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n"
 
 
 words = str(input("Please enter a string of text (the bigger the better): "))
+print("The distribution of characters in "+words+" is:")
 words = words.lower()
 
 letters = list(words)
