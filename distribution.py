@@ -37,6 +37,7 @@ Notice about this example:
 * Letters that do not occur in the text are not listed in the output at all.
 """
 x = 0
+z = 0
 alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 
 
@@ -48,11 +49,15 @@ bears = []
 
 for i in range (0, 26):
     bears.append(letters.count(alphabet[i]))
-    
-print(bears)
 
-bears2 = zip(alphabet, bears)
+bears2 = list(zip(alphabet, bears))
+bears2 = sorted(bears2)
 print(bears2)
+
+while z < 26:
+    print(bears2[z])
+    z = z + 1
+    
 
 
 
