@@ -54,7 +54,7 @@ bears2 = sorted(bears2)
 print(bears2)
 
 while z < 26:
-    print(bears2[z])
+    print((bears2[z][0])*(bears[z][1]))
     z = z + 1
     
 
