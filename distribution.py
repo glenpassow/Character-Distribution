@@ -49,8 +49,7 @@ bears = []
 
 for i in range (0, 26):
     bears.append(letters.count(alphabet[i]))
-
-bears2 = list(zip(alphabet, bears))
+bears2 = list(zip(bears, alphabet))
 bears2 = sorted(bears2)
 print(bears2)
 
