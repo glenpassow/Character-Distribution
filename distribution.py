@@ -51,7 +51,8 @@ for i in range (0, 26):
     
 print(bears)
 
-bears = 
+bears2 = zip(alphabet, bears)
+print(bears2)
 
 
 
