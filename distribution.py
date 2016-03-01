@@ -50,16 +50,16 @@ bears = []
 for i in range (0, 26):
     bears.append(letters.count(alphabet[i]))
 bears2 = list(zip(bears, alphabet))
-print(bears2)
-"""bears2 = sorted(bears2, key=lambda bears:(-bears[0], bears[1]))
+#bears2 = sorted(bears2)
 
-l = len([x[1] for x in list])
+final = sorted(bears2, key=lambda bears2: (-bears2[1], bears2[0]))
+
+
+print(final)
 
 for z in range (25, 0, -1):
-    if not y==y+1:
-        a = list([r[1] for r in lists
-       # print(a[y])
-"""
+    print(bears2[z][0]*bears2[z][1])
+ 
     
 
 
