@@ -54,12 +54,12 @@ bears2 = list(zip(bears, alphabet))
 
 final = sorted(bears2, key=lambda bears2: (-bears2[1], bears2[0]))
 
-
+"""
 print(final)
 
 for z in range (25, 0, -1):
     print(bears2[z][0]*bears2[z][1])
- 
+ """
     
 
 
