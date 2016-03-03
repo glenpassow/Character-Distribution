@@ -52,15 +52,11 @@ for i in range (0, 26):
 bears2 = list(zip(bears, alphabet))
 #bears2 = sorted(bears2)
 
-final = sorted(bears2, key=lambda bears2: (-bears2[1], bears2[0]))
+final = sorted(bears2, key=lambda bears2: (-bears2[0], bears2[1]))
 
-"""
-print(final)
-
-for z in range (25, 0, -1):
-    print(bears2[z][0]*bears2[z][1])
- """
-    
+for z in range (1,26):
+    print(final[z][0]*bears2[z][1])
+  
 
 
 
